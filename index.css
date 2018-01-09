@@ -1,0 +1,24 @@
+#para1 {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+#para2 {
+  text-align: center;
+  color: white;
+  font-size: 17;
+}
+
+p {
+  font-family: Kalam,sans-serif;
+}
+
+body {
+    background-color: #9900CC;
+}
+
+img {
+  height: 20%;
+  width: 50%;
+}
