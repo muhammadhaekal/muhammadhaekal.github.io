@@ -61,7 +61,8 @@ span {
 }
 
 html,body {
-  background-color: #9900CC;
+  /*background-color: #9900CC;*/
+  background: linear-gradient(#660099, #669999);
   width: 100%;
   height: 100%;
 }
