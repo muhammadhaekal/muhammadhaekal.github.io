@@ -107,6 +107,9 @@ textarea {
 }
 
 @media (max-width: 768px) {
+  textarea {
+    width: 600px;
+  }
   img {
     height: 180px;
     width: 180px;
@@ -146,13 +149,16 @@ textarea {
 
 
 @media (max-width: 320px) {
-  #inputForm {
-    font-size: 10px;
+  textarea {
+    width: 200px;
+  }
+  #submitForm{
+    margin-top: 20px;
   }
   img {
     height: 125px;
     width: 125px;
-    margin-bottom: 10px !important;
+    margin-bottom: 10px !important;  #submitForm
   }
   html,body {
     background-repeat: repeat;
