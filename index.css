@@ -48,6 +48,10 @@ a {
   margin-left: 5px
 }
 
+a:active a:hover {
+
+}
+
 p {
   color: white;
   font-family: Kalam;
@@ -64,6 +68,7 @@ html,body {
   width: 100%;
   height: 100%;
   font-family: Kalam;
+  background-repeat: no-repeat;
 }
 
 img {
@@ -99,4 +104,84 @@ label {
 
 textarea {
   border-radius: 25px;
+}
+
+@media (max-width: 768px) {
+  img {
+    height: 180px;
+    width: 180px;
+    margin-bottom: 10px !important;
+  }
+  html,body {
+    background-repeat: repeat;
+  }
+  #content {
+    height :auto;
+  }
+  #contents {
+    display: flex;
+    flex-direction: column;
+  }
+  #main {
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #paragraphOne {
+    font-size: 35px;
+  }
+  #paragraphTwo {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 30px !important;
+  }
+  .w3-container {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 320px) {
+  #inputForm {
+    font-size: 10px;
+  }
+  img {
+    height: 125px;
+    width: 125px;
+    margin-bottom: 10px !important;
+  }
+  html,body {
+    background-repeat: repeat;
+  }
+  #content {
+    height :auto;
+  }
+  #contents {
+    display: flex;
+    flex-direction: column;
+  }
+  #main {
+    text-align: center;
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  #paragraphOne {
+    font-size: 30px;
+  }
+  #paragraphTwo {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 30px !important;
+  }
+  .w3-container {
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+  }
 }
