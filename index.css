@@ -108,20 +108,18 @@ label {
 
 textarea {
   border-radius: 25px;
+  width: 700px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   textarea {
-    width: 600px;
+    width: 100%;
   }
   img {
     height: 180px;
     width: 180px;
     margin-bottom: 10px !important;
   }
-  /*html,body {
-    background-repeat: repeat;
-  }*/
   #content {
     height :auto;
   }
@@ -153,9 +151,6 @@ textarea {
 
 
 @media (max-width: 320px) {
-  textarea {
-    width: 200px;
-  }
   #submitForm{
     margin-top: 20px;
   }
