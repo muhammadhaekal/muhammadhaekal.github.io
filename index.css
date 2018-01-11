@@ -63,7 +63,6 @@ span {
 }
 
 html,body {
-  /*background-color: #9900CC;*/
   background: linear-gradient(#660099, #669999);
   width: 100%;
   height: 100%;
@@ -115,9 +114,9 @@ textarea {
     width: 180px;
     margin-bottom: 10px !important;
   }
-  html,body {
+  /*html,body {
     background-repeat: repeat;
-  }
+  }*/
   #content {
     height :auto;
   }
@@ -160,9 +159,9 @@ textarea {
     width: 125px;
     margin-bottom: 10px !important;  #submitForm
   }
-  html,body {
+  /*html,body {
     background-repeat: repeat;
-  }
+  }*/
   #content {
     height :auto;
   }
