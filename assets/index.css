@@ -29,9 +29,10 @@ h3 {
 
 #main {
   text-align: center;
-  padding-top: 10px;
-  padding-left: 10%;
-  padding-right: 10%;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px!important;
 }
 
 #content {
@@ -63,7 +64,6 @@ html,body {
   background: linear-gradient(#660099, #669999);
   width: 100%;
   height: 100%;
-  font-family: Kalam;
 }
 
 img {
@@ -79,24 +79,4 @@ img {
 
 .fa-github {
   margin-bottom: 50px;
-}
-
-.w3-light-grey{
-  margin-bottom:
-}
-
-#contactForm {
-  padding: 20px;
-}
-
-#inputForm {
-  margin-bottom: 10px;
-}
-
-label {
-  color: white;
-}
-
-textarea {
-  border-radius: 25px;
 }
